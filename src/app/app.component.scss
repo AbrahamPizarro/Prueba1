@@ -1,0 +1,3 @@
+<hr>
+<app-lista-alumnos [listaAlumno]="alumnos"></app-lista-alumnos>
+<app-formulario-alumno (puchamon)="guardarNuevo($event)"></app-formulario-alumno>
